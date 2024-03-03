@@ -1,0 +1,136 @@
+@import '../../index.scss';
+
+.button-component{
+    &.primary{
+        background-color: $primary-bg;
+        color: $primary;
+        padding: 1rem 5rem;
+        border-radius: 1vh;
+        border: none;
+        
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: $primary;
+            color: $primary-bg;
+        }
+    }
+
+    &.secondary{
+        background-color: $secondary-bg;
+        color: $secondary;
+        padding: 1rem 5rem;
+        border-radius: 1vh;
+        border: none;
+        
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: $secondary;
+            color: $secondary-bg;
+        }
+    }
+
+    &.white{
+        background-color: white;
+        color: $text;
+        padding: 1rem calc(1rem + 3vw);
+        border-radius: 1vh;
+        border: none;
+        
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: $text;
+            color: white;
+        }
+    }
+
+    &.link{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background-color: transparent;
+        color: $primary;
+        border: none;
+        
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &.choice{
+        position: relative;
+        background-color: transparent;
+        color: $text;
+        padding: .25rem 1rem;
+        border: none;
+        
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 1rem;
+            bottom: 0;
+            width: calc(100% - 2rem);
+            height: 2px;
+            background-color: $text;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        &:hover::after {
+            opacity: .5;
+        }
+
+        &.active{
+            color: $text-header;
+
+            &::after{
+                opacity: 0.5;
+            }
+
+            &:hover::after {
+                opacity: 1;
+            }
+        }
+    }
+
+    &.pulsating {
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            box-shadow: 0px 0px 0px 0px rgba(34, 139, 230, 0.1);
+        }
+        25% {
+            box-shadow: 0px 0px 20px 0px rgba(34, 139, 230, 0.5);
+        }
+        50% {
+            box-shadow: 0px 0px 0px 0px rgba(34, 139, 230, 0.1);
+        }
+    }
+}
