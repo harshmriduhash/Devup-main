@@ -50,7 +50,7 @@ const About = () => {
               animate={{ opacity: 1, translateY: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Om mig
+              About me
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, translateY: "100%" }}
