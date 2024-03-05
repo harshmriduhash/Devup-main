@@ -72,7 +72,7 @@ const Pricing = () => {
               <li>API Integration</li>
               <li>SEO</li>
               <li>Authentication</li>
-              <li>Cloud Hosting</li>
+              <li>Cloud Deployment</li>
               <li>Payment Gateways</li>
             </ul>
           </motion.div>
@@ -89,7 +89,7 @@ const Pricing = () => {
               <li>Unlimited Pages</li>
               <li>Frontend/Backend</li>
               <li>iOS/Android</li>
-              <li>Play/App Store</li>
+              <li>Play/App Store Deployment</li>
               <li>Payment Gateways</li>
               <li>Google Maps integration</li>
             </ul>
