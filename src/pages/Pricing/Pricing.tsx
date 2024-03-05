@@ -54,6 +54,7 @@ const Pricing = () => {
             <ul>
               <li>8 pages</li>
               <li>Responsive Design</li>
+              <li>Working Prototype</li>
               <li>Frontend/Backend</li>
             </ul>
           </motion.div>
