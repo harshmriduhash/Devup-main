@@ -52,10 +52,12 @@ const Pricing = () => {
             <span className="from">From</span>
             <span className="price">$1999</span>
             <ul>
-              <li>8 pages</li>
+              <li>10 pages</li>
               <li>Responsive Design</li>
-              <li>Working Prototype</li>
+              <li>Login/Signup Forms</li>
               <li>Frontend/Backend</li>
+              <li>Authentications</li>
+              <li>Dashboards</li>
             </ul>
           </motion.div>
           <motion.div
