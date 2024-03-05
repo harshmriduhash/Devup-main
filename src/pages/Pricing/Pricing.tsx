@@ -92,14 +92,14 @@ const Pricing = () => {
               <li>iOS/Android</li>
               <li>Play/App Store Deployment</li>
               <li>Payment Gateways</li>
-              <li>Google Maps integration</li>
+              <li>Push Notifications</li>
             </ul>
           </motion.div>
         </div>
         <div className="lower-text">
           <h2>Are you also looking for More functionality?</h2>
           <p>
-          We also offer development of AI Automations
+          We also offer development of AI Automations, Low/No code
           </p>
         </div>
         <div className="packages">
