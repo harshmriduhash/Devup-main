@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/">
                 <div className="logo">
                     <img src='/Images/Logo.webp' alt='' />
-                    <h2>DevUp</h2>
+                    <h2>10Kp</h2>
                 </div>
             </Link>
             <Nav />

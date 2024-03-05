@@ -10,7 +10,7 @@ const About = () => {
         <title>About us</title>
         <meta
           name="description"
-          content="Vi är DevUp. Vi är ett företag som erbjuder tjänster inom webbdesign, webbutveckling och mobilapplikationer."
+          content="Modern day Development Company"
         />
       </Helmet>
       <div className="about-screen">
@@ -27,8 +27,8 @@ const About = () => {
             animate={{ opacity: 1, translateY: 0 }}
             transition={{ delay: 0.2 }}
           >
-            We are a solo web development agency that strives to provide
-            innovative solutions to help businesses and organizations build a
+            We are modern day software development agency that strives to provide
+            innovative solutions to help startups and young entrepreneur build a
             strong online presence. Our goal is to provide our clients with high
             quality work that is tailored to their individual needs and goals..
           </motion.p>
@@ -57,8 +57,8 @@ const About = () => {
               animate={{ opacity: 1, translateY: 0 }}
               transition={{ delay: 0.6 }}
             >
-              I am committed to providing the best possible service and to
-              ensure that my clients are satisfied with my work. With my
+              We are committed to providing the best possible service and to
+              ensure that our partners are satisfied with our work. With my
               expertise in web development and design, I am confident that I can
               help your company reach its goals on a strong and successful
               online platform.

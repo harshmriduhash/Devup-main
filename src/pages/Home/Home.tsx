@@ -26,10 +26,7 @@ const Home = () => {
     <AnimatedPage>
       <Helmet>
         <title>10K- AI Solutions</title>
-        <meta
-          name="description"
-          content="Vi hjälper företag att skapa en digital närvaro som lockar fler kunder och ökar företagets konkurrenskraft"
-        />
+        <meta name="description" content="New age development company" />
       </Helmet>
       <div className="home-screen">
         <Hero />
@@ -88,7 +85,7 @@ const Hero = () => {
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          software development
+          Software Development
         </motion.div>
       </h1>
       <motion.p
@@ -96,8 +93,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, damping: 1 }}
       >
-        Vi hjälper företag att skapa en digital närvaro som lockar fler kunder
-        och ökar företagets konkurrenskraft.
+        We want to work with startups to become their go to technology partner
       </motion.p>
       <motion.div
         initial={{ translateY: "200%", opacity: 0 }}
@@ -105,7 +101,7 @@ const Hero = () => {
         transition={{ delay: 1.5 }}
       >
         <RouterLink variant="primary" to="/contact" className="pulsating">
-          Kontakta oss
+          Contact us
         </RouterLink>
       </motion.div>
     </section>
@@ -137,13 +133,15 @@ const Help = () => {
             hidden: { opacity: 0 },
           }}
         >
-          We offer tailored digital solutions that help companies improve their
-          digital presence and increase their visibility online, which can
-          attract more customers and strengthen companies' competitiveness in
-          the digital world.{" "}
+          At 10k, we use the power of AI and no-code to develop unmatched user
+          experiences. We can build an entire product for you in 40% reduced
+          time. We are hyper-focused on creating best class scaleable applications, optimized
+          for the best possible user experience and product. We're the
+          all-in-one solution for startups, young entreprenuer and corporations looking to
+          rapidly develop, and then launch with our support.{" "}
         </motion.p>
         <RouterLink variant="link" to="/about" arrow>
-          Läs mer om oss
+          Read more about us
         </RouterLink>
       </div>
     </section>
@@ -168,10 +166,10 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <div className="text">
-        <h2>Våra tjänster</h2>
+        <h2>Our services</h2>
         <h3>
-          Effektivisera ert företag
-          <br /> genom våra tjänster
+          Streamline your business
+          <br /> through our services
         </h3>
       </div>
       <ul className="options">
@@ -181,7 +179,7 @@ const Services = () => {
             className={serviceIndex === 0 ? "active" : ""}
             onClick={() => setServiceIndex(0)}
           >
-            Webbdesign
+            WebApp Development
           </Button>
         </li>
         <li className="option">
@@ -190,7 +188,7 @@ const Services = () => {
             className={serviceIndex === 1 ? "active" : ""}
             onClick={() => setServiceIndex(1)}
           >
-            Webbutveckling
+            Mobile App development
           </Button>
         </li>
         <li className="option">
@@ -199,7 +197,7 @@ const Services = () => {
             className={serviceIndex === 2 ? "active" : ""}
             onClick={() => setServiceIndex(2)}
           >
-            Apputveckling
+            AI/Chatbots
           </Button>
         </li>
         <li className="buttons">
@@ -236,21 +234,16 @@ const Services = () => {
             <h4>Webapp Development</h4>
           </div>
           <p>
-            Vi skapar anpassade webbplatser som är intuitiva och lättanvända,
-            vilket leder till en förbättrad användarupplevelse. Våra webbplatser
-            är också responsiva och optimerade för alla enheter och plattformar,
-            vilket säkerställer att dina kunder alltid kan hitta det de söker.
+            We develop powerful web applications that meet your unique needs.
+            Our team of experienced developers can create everything from simple
+            websites to advanced e-commerce platforms, focusing on performance
+            and scalability.
           </p>
           <ul>
-            <li>Koncept</li>
+            <li>Concept</li>
             <li>Layout</li>
-            <li>Design</li>
-            <li>Ikoner</li>
-            <li>Animationer</li>
-            <li>Typsnitt</li>
-            <li>Loggor</li>
-            <li>Hosting</li>
-            <li>Domain</li>
+            <li>Social Logins</li>
+            <li>Cloud Hosting</li>
             <li>SEO</li>
           </ul>
         </motion.li>
@@ -267,23 +260,22 @@ const Services = () => {
             <div className="icon">
               <MdCode />
             </div>
-            <h4>Webbutveckling</h4>
+            <h4>App Development</h4>
           </div>
           <p>
-            Vi utvecklar kraftfulla webbapplikationer som möter dina unika
-            behov. Vårt team av erfarna utvecklare kan skapa allt från enkla
-            webbplatser till avancerade e-handelsplattformar, med fokus på
-            prestanda och skalbarhet.
+            We create custom mobile applications for both Android and iOS
+            devices. Our team of app developers can create everything from
+            simple apps to more complex platforms with real-time data processing
+            and integration with third-party APIs.
           </p>
           <ul>
             <li>Frontend</li>
             <li>Backend</li>
-            <li>API</li>
-            <li>Databas</li>
+            <li>Andriod & iOS</li>
+            <li>Databases</li>
             <li>Inloggning</li>
-            <li>Hosting</li>
-            <li>Domain</li>
-            <li>SEO</li>
+            <li>App/Play store</li>
+            <li>3rd parties API integration</li>
           </ul>
         </motion.li>
         <motion.li
@@ -299,20 +291,20 @@ const Services = () => {
             <div className="icon">
               <MdDeveloperMode />
             </div>
-            <h4>App Development</h4>
+            <h4>Low/No code Development</h4>
           </div>
           <p>
-            Vi skapar anpassade mobilapplikationer för både Android och
-            iOS-enheter. Vårt team av apputvecklare kan skapa allt från enkla
-            appar till mer komplexa plattformar med realtidsdataprocessering och
-            integration med tredjeparts-API:er.
+            We help companies build custom chatbots and help them in AI
+            automations. We also cater Low/No code development to fastract
+            companies process of building products and speeding their
+            development process
           </p>
           <ul>
-            <li>Frontend</li>
-            <li>Backend</li>
-            <li>API</li>
+            <li>Bubble</li>
+            <li>Locofy</li>
+            <li>Cardd</li>
             <li>Databas</li>
-            <li>Inloggning</li>
+            <li>Webflow</li>
           </ul>
         </motion.li>
       </ul>
@@ -340,8 +332,8 @@ const WhyUs = () => {
           hidden: { opacity: 0, translateY: "100%" },
         }}
       >
-        Helt enkelt bättre - du kommer
-        <br /> aldrig vilja gå tillbaka.
+        Simply better - you'll
+        <br /> never want to go back.
       </motion.h2>
       <motion.p
         animate={topControls}
@@ -351,8 +343,8 @@ const WhyUs = () => {
           hidden: { opacity: 0, translateY: "100%" },
         }}
       >
-        Betala bara för den tid du behöver och få högkvalitativa resultat
-        <br /> som överträffar dina förväntningar."
+        We are here to
+        <br /> get high-quality result that exceed your expectations.
       </motion.p>
       <div ref={midRef} className="grid">
         <div className="item">
@@ -374,7 +366,7 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Snabbare
+            Faster
           </motion.h3>
           <motion.p
             animate={midControls}
@@ -384,8 +376,8 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Vi arbetar effektivt för att leverera högkvalitativa projekt i tid,
-            på några dagar i genomsnitt.
+            We work efficiently to deliver high quality projects on time, in few
+            weeks on average.
           </motion.p>
         </div>
         <div className="item">
@@ -407,7 +399,7 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Kvalitet
+            Quality
           </motion.h3>
           <motion.p
             animate={midControls}
@@ -417,8 +409,8 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Vi upprätthåller höga standarder i vårt arbete genom att använda
-            bästa praxis och kvalitetsverktyg.
+            We maintain high standards in our work by using best practices and
+            quality tools.
           </motion.p>
         </div>
         <div className="item">
@@ -440,7 +432,7 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Anpassningsbarhet
+            Adaptability
           </motion.h3>
           <motion.p
             animate={midControls}
@@ -450,8 +442,8 @@ const WhyUs = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            Vi arbetar med olika teknologier och plattformar för att uppfylla
-            dina specifika behov.
+            We work with different technologies and platforms to meet your
+            specific needs.
           </motion.p>
         </div>
       </div>
@@ -508,8 +500,9 @@ const Testimony = () => {
         }}
         className="quote"
       >
-        Design är allt och dom har verkligen
-        <br /> lyckats med det.
+        Harsh is by far the best in his tech space. Delivered everything on
+        time, word by word.
+        <br /> Worth every penny
       </motion.span>
       <motion.span
         animate={controls}
@@ -598,13 +591,13 @@ const Pricing = () => {
               hidden: { opacity: 0, translateY: "100%" },
             }}
           >
-            <span className="tag">Basic</span>
+            <span className="tag">MVP Development</span>
             <span className="from">From</span>
             <span className="price">$1999</span>
             <ul>
-              <li>8 Pages</li>
+              <li>Limited Pages</li>
               <li>Responsive Design</li>
-              <li>Kontaktformulär</li>
+              <li>Working Prototype</li>
             </ul>
           </motion.div>
         </Link>
@@ -639,7 +632,7 @@ const Contact = () => {
             hidden: { opacity: 0, translateY: "200%" },
           }}
         >
-          Skicka ett meddelande
+          Send a Message
         </motion.div>
       </h3>
       <motion.div

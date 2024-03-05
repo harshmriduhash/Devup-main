@@ -11,7 +11,7 @@ const Footer = () => {
           <Link style={{ textDecoration: "none" }} to="/">
             <div className="logo">
               <img src="/Images/Logo.webp" alt="" />
-              <h2>DevUp</h2>
+              <h2>10K</h2>
             </div>
           </Link>
           <p>

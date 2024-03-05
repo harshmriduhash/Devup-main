@@ -29,7 +29,7 @@ const Contact = () => {
         <AnimatedPage>
             <Helmet>
                 <title>Contact Us</title>
-                <meta name="description" content="Discuss project" />
+                <meta name="description" content="Discuss pricing" />
             </Helmet>
             <section className='contact-screen'>
                 <div className='text'>
