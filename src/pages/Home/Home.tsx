@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <AnimatedPage>
             <Helmet>
-                <title>DevUp - Skapa en digital närvaro</title>
+                <title>10K- AI Solutions</title>
                 <meta name="description" content="Vi hjälper företag att skapa en digital närvaro som lockar fler kunder och ökar företagets konkurrenskraft" />
             </Helmet>
             <div className="home-screen">
@@ -123,7 +123,7 @@ const Services = () => {
                         <div className="icon">
                             <MdDesignServices />
                         </div>
-                        <h4>Webbdesign</h4>
+                        <h4>Webapp Development</h4>
                     </div>
                     <p>Vi skapar anpassade webbplatser som är intuitiva och lättanvända, vilket leder till en förbättrad användarupplevelse. Våra webbplatser är också responsiva och optimerade för alla enheter och plattformar, vilket säkerställer att dina kunder alltid kan hitta det de söker.</p>
                     <ul>
@@ -169,7 +169,7 @@ const Services = () => {
                         <div className="icon">
                             <MdDeveloperMode />
                         </div>
-                        <h4>Apputveckling</h4>
+                        <h4>App Development</h4>
                     </div>
                     <p>Vi skapar anpassade mobilapplikationer för både Android och iOS-enheter. Vårt team av apputvecklare kan skapa allt från enkla appar till mer komplexa plattformar med realtidsdataprocessering och integration med tredjeparts-API:er.</p>
                     <ul>
@@ -301,7 +301,7 @@ const Portfolio = () => {
     return (
         <section className='portfolio' id='portfolio'>
             <h2>Portfolio</h2>
-            <h3>Se några av våra senaste projekt</h3>
+            <h3>Some of our projects</h3>
             <ul className="projects">
                 <Project image='/Images/Alvesta-el.webp' i={0} />
                 <Project image='/Images/Volted.webp' i={1} />
@@ -336,7 +336,7 @@ const Pricing = () => {
     return (
         <section className='pricing' id='pricing'>
             <div className="left">
-                <h2>Priser</h2>
+                <h2>Pricing</h2>
                 <motion.h3 animate={controls} transition={{delay: 0.2}} variants={{
                     visible: {opacity: 1, translateX: 0},
                     hidden: {opacity: 0, translateX: "-100%"},
@@ -350,11 +350,11 @@ const Pricing = () => {
                         hidden: {opacity: 0, translateY: "100%"},
                     }}>
                         <span className='tag'>Basic</span>
-                        <span className='from'>Från</span>
-                        <span className='price'>999 kr</span>
+                        <span className='from'>From</span>
+                        <span className='price'>$1999</span>
                         <ul>
-                            <li>3 sidor</li>
-                            <li>Responsiv Design</li>
+                            <li>8 Pages</li>
+                            <li>Responsive Design</li>
                             <li>Kontaktformulär</li>
                         </ul>
                     </motion.div>

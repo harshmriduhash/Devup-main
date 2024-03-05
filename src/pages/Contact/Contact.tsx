@@ -28,20 +28,20 @@ const Contact = () => {
     return (
         <AnimatedPage>
             <Helmet>
-                <title>Kontakta oss - Vi hjälper dig digitalisera ditt företag</title>
+                <title>Contact Us - Vi hjälper dig digitalisera ditt företag</title>
                 <meta name="description" content="Kontakta oss så hjälper vi dig digitalisera ditt företag. Vi erbjuder tjänster inom webbutveckling, webbdesign, grafisk design, SEO och mycket mer." />
             </Helmet>
             <section className='contact-screen'>
                 <div className='text'>
-                    <h1>Kontakta oss</h1>
+                    <h1>Contact Us</h1>
                     <motion.h2 initial={{opacity: 0, translateX: "-100%"}} animate={{opacity: 1, translateX: 0}}>Har du en projekt<br /> i åtanke?</motion.h2>
                     <motion.div className="email" initial={{opacity: 0, translateY: "100%"}} animate={{opacity: 1, translateY: 0}} transition={{delay: 0.2}}>
                         <div className="icon">
                             <MdEmail />
                         </div>
                         <div className="emailtext">
-                            <h4>E-post</h4>
-                            <Anchor variant='link' href='mailto:elias@devup.se'>elias@devup.se</Anchor>
+                            <h4>E-mail</h4>
+                            <Anchor variant='link' href='mailto:sahayharsh2709@gmail.com'>sahayharsh2709@gmail.com</Anchor>
                         </div>
                     </motion.div>
                 </div>
