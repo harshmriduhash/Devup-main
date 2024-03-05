@@ -34,11 +34,11 @@ const Navbar = () => {
 
 const Nav = () => {
     const navItemProps = [
-        {label: "Hem", link: "/"},
+        {label: "Home", link: "/"},
         {label: "Portfolio", link: "/portfolio"},
-        {label: "Prissättning", link: "/pricing"},
-        {label: "Om oss", link: "/about"},
-        {label: "Kontakt", link: "/contact"}
+        {label: "Pricing", link: "/pricing"},
+        {label: "About us", link: "/about"},
+        {label: "Contact", link: "/contact"}
     ]
 
     const [burgerOpen, setBurgerOpen] = useState(false)

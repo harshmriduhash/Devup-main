@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
           </Link>
           <p>
-            We dedicated to delivering customized and high quality web
+            We are dedicated to delivering customized and high quality web
             solutions that meet your specific business needs. Our team builds
             responsive, search engine optimized and user-friendly websites that
             attract visitors and generate business opportunities.
@@ -37,7 +37,7 @@ const Footer = () => {
           </RouterLink>
         </div>
         <div className="contacts">
-          <h3>Kontakta oss</h3>
+          <h3>Contact us</h3>
           <div className="email">
             <div className="icon">
               <MdEmail size={20} color="#ccc" />

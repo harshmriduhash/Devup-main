@@ -464,7 +464,7 @@ const WhyUs = () => {
             hidden: { opacity: 0, translateY: "100%" },
           }}
         >
-          Redo att ta nästa steg?
+          Ready to take the next step?
         </motion.h3>
         <motion.div
           animate={bottomControls}
@@ -475,7 +475,7 @@ const WhyUs = () => {
           }}
         >
           <RouterLink to="/contact" variant="white">
-            Kontakta oss
+            Contact Us
           </RouterLink>
         </motion.div>
       </div>
@@ -520,7 +520,7 @@ const Testimony = () => {
         }}
         className="author"
       >
-        - Elias
+        - Vikram
       </motion.span>
     </section>
   );
@@ -536,7 +536,7 @@ const Portfolio = () => {
         <Project image="/Images/Volted.webp" i={1} />
       </ul>
       <RouterLink to="/portfolio" variant="link" arrow>
-        Se fler projekt
+        See more projects
       </RouterLink>
     </section>
   );
@@ -619,7 +619,7 @@ const Contact = () => {
 
   return (
     <section ref={ref} className="contact" id="contact">
-      <h2>Contact </h2>
+      <h2>Contact us </h2>
       <h3>
         <motion.div
           animate={controls}
