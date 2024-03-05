@@ -78,6 +78,7 @@ const Pricing = () => {
               <li>Cloud Deployment</li>
               <li>Payment Gateways</li>
               <li>Real-time data processing</li>
+              <li>Social Logins</li>
             </ul>
           </motion.div>
           <motion.div
@@ -96,6 +97,7 @@ const Pricing = () => {
               <li>Play/App Store Deployment</li>
               <li>Payment Gateways</li>
               <li>Push Notifications</li>
+              <li>OTP Logins</li>
             </ul>
           </motion.div>
         </div>
