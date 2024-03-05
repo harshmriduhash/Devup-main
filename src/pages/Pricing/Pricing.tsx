@@ -71,6 +71,7 @@ const Pricing = () => {
               <li>Frontend/Backend</li>
               <li>API Integration</li>
               <li>SEO</li>
+              <li>Authentication</li>
               <li>Cloud Hosting</li>
               <li>Payment Gateways</li>
             </ul>
