@@ -66,7 +66,7 @@ const Pricing = () => {
           >
             <span className="tag">WebApp Development</span>
             <span className="from">From</span>
-            <span className="price">$2499</span>
+            <span className="price">$3500</span>
             <ul>
               <li>Unlimited Pages</li>
               <li>Frontend/Backend</li>
