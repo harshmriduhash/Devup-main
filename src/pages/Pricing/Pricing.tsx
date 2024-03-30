@@ -57,7 +57,7 @@ const Pricing = () => {
               <li>Login/Sign-up Forms</li>
               <li>Frontend/Backend</li>
               <li>User-Authentications</li>
-              <li>Dashboards</li>
+              <li>Admin Dashboard</li>
             </ul>
           </motion.div>
           <motion.div
