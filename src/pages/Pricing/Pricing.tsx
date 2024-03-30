@@ -54,7 +54,7 @@ const Pricing = () => {
             <ul>
               <li>Limited pages</li>
               <li>Responsive Design</li>
-              <li>Login/Signup Forms</li>
+              <li>Login/Sign-up Forms</li>
               <li>Frontend/Backend</li>
               <li>User-Authentications</li>
               <li>Dashboards</li>
