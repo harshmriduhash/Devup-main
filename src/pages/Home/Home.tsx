@@ -598,6 +598,7 @@ const Pricing = () => {
               <li>Limited Pages</li>
               <li>Responsive Design</li>
               <li>Working Prototype</li>
+              <li>Source code</li>
             </ul>
           </motion.div>
         </Link>
