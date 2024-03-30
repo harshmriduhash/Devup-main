@@ -23,7 +23,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setStatus({ type: "success", message: "Meddelande skickat" });
+          setStatus({ type: "success", message: "Message Sent" });
           formRef.current?.reset();
         },
         (error) => {
