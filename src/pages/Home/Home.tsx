@@ -573,7 +573,7 @@ const Pricing = () => {
             hidden: { opacity: 0, translateX: "-100%" },
           }}
         >
-          Få en responsiv hemsida för endast 999kr
+          Get a responsive website for only $1999
         </motion.h3>
         <RouterLink variant="link" to="/pricing" arrow>
           See all packages
