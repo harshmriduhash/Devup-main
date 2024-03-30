@@ -501,8 +501,7 @@ const Testimony = () => {
         className="quote"
       >
         Harsh is by far the best in his tech space. Delivered everything on
-        time, word by word.
-        <br /> Worth every penny
+        time, word by word. Worth every penny
       </motion.span>
       <motion.span
         animate={controls}
