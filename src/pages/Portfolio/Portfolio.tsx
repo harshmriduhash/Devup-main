@@ -33,6 +33,12 @@ const Portfolio = () => {
             i={1}
           />
           <Project
+            title="Goodspace"
+            type="Web Application"
+            image="/Images/Volted.webp"
+            i={1}
+          />
+          <Project
             title="Hunch"
             type="Web Application"
             image="/Images/Workflow.webp"
