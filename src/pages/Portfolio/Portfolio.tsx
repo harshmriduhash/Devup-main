@@ -8,7 +8,7 @@ const Portfolio = () => {
     <AnimatedPage>
       <Helmet>
         <title>Portfolio</title>
-        <meta name="description" content="Se några av våra senaste projekt" />
+        <meta name="description" content="See some of our latest projects" />
       </Helmet>
       <section className="portfolio-screen">
         <h1>Portfolio</h1>
