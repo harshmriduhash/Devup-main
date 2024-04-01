@@ -310,7 +310,6 @@ const Services = () => {
 const WhyUs = () => {
   const topRef = useRef<HTMLElement>(null);
   const topControls = VisibleControls(topRef);
-
   const midRef = useRef<HTMLDivElement>(null);
   const midControls = VisibleControls(midRef);
 
