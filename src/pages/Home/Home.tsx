@@ -229,7 +229,7 @@ const Services = () => {
             <h4>Webapp Development</h4>
           </div>
           <p>
-            We develop powerful web applications that meet your unique needs.
+            We develop powerful webApp that meet your unique needs.
             Our team of experienced developers can create everything from simple
             websites to advanced platforms, focusing on performance
             and scalability.
