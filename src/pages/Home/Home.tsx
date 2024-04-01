@@ -258,7 +258,7 @@ const Services = () => {
             <h4>App Development</h4>
           </div>
           <p>
-            We create custom mobile app for both Android and iOS
+            We create custom mobile Apps for both Android and iOS
             devices. Our team of app developers can create everything from
             simple apps to more complex platforms with real-time data processing
             and integration with third-party APIs.
