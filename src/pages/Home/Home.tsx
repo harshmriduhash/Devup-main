@@ -268,7 +268,6 @@ const Services = () => {
             <li>Backend</li>
             <li>Andriod & iOS</li>
             <li>Databases</li>
-            <li>Inloggning</li>
             <li>App/Play store</li>
             <li>3rd parties API integration</li>
           </ul>
