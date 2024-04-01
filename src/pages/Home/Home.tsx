@@ -150,7 +150,6 @@ const Services = () => {
   const ref = useRef<HTMLUListElement>(null);
   const controls = VisibleControls(ref);
   const [serviceIndex, setServiceIndex] = useState(0);
-
   useEffect(() => {
     if (ref.current === null || ref.current.children?.length === 0) return;
 
@@ -159,7 +158,6 @@ const Services = () => {
       behavior: "smooth",
     });
   }, [serviceIndex]);
-
   return (
     <section className="services" id="services">
       <div className="text">
@@ -233,7 +231,7 @@ const Services = () => {
           <p>
             We develop powerful web applications that meet your unique needs.
             Our team of experienced developers can create everything from simple
-            websites to advanced e-commerce platforms, focusing on performance
+            websites to advanced platforms, focusing on performance
             and scalability.
           </p>
           <ul>
