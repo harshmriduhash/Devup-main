@@ -18,7 +18,6 @@ const Navbar = () => {
         })
     }
     , [])
-
     return (
         <header ref={ref} className={`navbar ${scrollY < 72 && "notfixed"}`}>
             <Link to="/">
