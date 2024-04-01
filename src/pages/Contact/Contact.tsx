@@ -12,7 +12,6 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_3dcgsha",
