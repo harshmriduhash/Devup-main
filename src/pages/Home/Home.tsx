@@ -471,7 +471,6 @@ const WhyUs = () => {
 const Testimony = () => {
   const ref = useRef(null);
   const controls = VisibleControls(ref);
-
   return (
     <section ref={ref} className="testimony">
       <motion.div
