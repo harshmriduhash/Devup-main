@@ -288,7 +288,7 @@ const Services = () => {
             <h4>Low/No code Development</h4>
           </div>
           <p>
-            We help companies build custom chatbots and help them in AI
+            We help companies build custom chat-bots and help them in AI
             automations. We also cater Low/No code development to fastract
             companies process of building products and speeding their
             development process
