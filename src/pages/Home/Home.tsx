@@ -149,7 +149,6 @@ const Help = () => {
 const Services = () => {
   const ref = useRef<HTMLUListElement>(null);
   const controls = VisibleControls(ref);
-
   const [serviceIndex, setServiceIndex] = useState(0);
 
   useEffect(() => {
