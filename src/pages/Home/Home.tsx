@@ -131,7 +131,7 @@ const Help = () => {
             hidden: { opacity: 0 },
           }}
         >
-          At 10k, we use the power of AI and no-code to develop unmatched user
+          we use the power of AI and no-code to develop unmatched user
           experiences. We can build an entire product for you in 40% reduced
           time. We are hyper-focused on creating best class scaleable applications, optimized
           for the best possible user experience and product. We're the
