@@ -42,7 +42,6 @@ const Nav = () => {
     ]
 
     const [burgerOpen, setBurgerOpen] = useState(false)
-
     return (
         <nav>
             <ul className={`nav ${burgerOpen && "open"}`}>
