@@ -550,7 +550,6 @@ const Project = ({ image, i }: { image: string; i: number }) => {
 const Pricing = () => {
   const ref = useRef(null);
   const controls = VisibleControls(ref);
-
   return (
     <section className="pricing" id="pricing">
       <div className="left">
