@@ -312,7 +312,6 @@ const WhyUs = () => {
   const topControls = VisibleControls(topRef);
   const midRef = useRef<HTMLDivElement>(null);
   const midControls = VisibleControls(midRef);
-
   const bottomRef = useRef<HTMLDivElement>(null);
   const bottomControls = VisibleControls(bottomRef);
 
