@@ -133,7 +133,7 @@ const Help = () => {
         >
           We use the power of AI and no-code to develop unmatched user
           experiences. We can build an entire product for you in 40% reduced
-          time. We are hyper-focused on creating best class scaleable applications, optimized
+          time. We are hyper-focused on creating best class scalable applications, optimized
           for the best possible user experience and product. We're the
           all-in-one solution for startups, young Entreprenuer and corporations looking to
           rapidly develop, and then launch with our support.{" "}
