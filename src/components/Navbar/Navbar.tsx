@@ -57,7 +57,6 @@ const Nav = () => {
 
 const NavItem = ({ label, link, closeBurger } : { label: string, link: string, closeBurger: () => void}) => {
     const location = useLocation()
-
     return (
         <li className={`navitem ${location.pathname == link && "active"}`}>
             <Link to={link} onClick={closeBurger}>
