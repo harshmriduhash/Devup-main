@@ -135,7 +135,7 @@ const Help = () => {
           experiences. We can build an entire product for you in 40% reduced
           time. We are hyper-focused on creating best class scaleable applications, optimized
           for the best possible user experience and product. We're the
-          all-in-one solution for startups, young entreprenuer and corporations looking to
+          all-in-one solution for startups, young Entreprenuer and corporations looking to
           rapidly develop, and then launch with our support.{" "}
         </motion.p>
         <RouterLink variant="link" to="/about" arrow>
