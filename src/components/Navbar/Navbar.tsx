@@ -39,7 +39,6 @@ const Nav = () => {
         {label: "About us", link: "/about"},
         {label: "Contact", link: "/contact"}
     ]
-
     const [burgerOpen, setBurgerOpen] = useState(false)
     return (
         <nav>
