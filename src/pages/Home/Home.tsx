@@ -44,7 +44,6 @@ const Home = () => {
 
 const Hero = () => {
   const blob = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     document.body.addEventListener("mousemove", (e) => {
       if (blob.current === null) return;
