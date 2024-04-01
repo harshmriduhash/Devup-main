@@ -51,7 +51,6 @@ const Nav = () => {
         </nav>
     )
 }
-
 const NavItem = ({ label, link, closeBurger } : { label: string, link: string, closeBurger: () => void}) => {
     const location = useLocation()
     return (
