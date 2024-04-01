@@ -289,7 +289,7 @@ const Services = () => {
           </div>
           <p>
             We help companies build custom chat-bots and help them in AI
-            automation. We also cater Low/No code development to fastract
+            automation. We also cater Low/No code development to fast track
             companies process of building products and speeding their
             development process
           </p>
