@@ -110,7 +110,6 @@ const Hero = () => {
 const Help = () => {
   const ref = useRef<HTMLElement>(null);
   const controls = VisibleControls(ref);
-
   return (
     <section ref={ref} className="help">
       <motion.h2
