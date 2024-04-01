@@ -529,7 +529,6 @@ const Portfolio = () => {
 const Project = ({ image, i }: { image: string; i: number }) => {
   const ref = useRef(null);
   const controls = VisibleControls(ref);
-
   return (
     <motion.li
       ref={ref}
