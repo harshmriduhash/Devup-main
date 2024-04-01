@@ -28,7 +28,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          setStatus({ type: "error", message: "We're sorry," });
+          setStatus({ type: "error", message: "We're sorry,  but something went wrong" });
         }
       );
   };
