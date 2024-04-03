@@ -150,7 +150,7 @@ const Pricing = () => {
             <ul>
               <li>Responsive Design</li>
               <li>User Authentication</li>
-              <li>Push-notifikationer</li>
+              <li>Push-notifications</li>
               <li>Databaser</li>
               <li>Realtidsdataprocessering</li>
               <li>Tredjeparts-API:er</li>
