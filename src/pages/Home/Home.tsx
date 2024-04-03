@@ -269,7 +269,6 @@ const Services = () => {
             <li>Andriod & iOS</li>
             <li>Databases</li>
             <li>App/Play store</li>
-            <li>3rd parties API integration</li>
           </ul>
         </motion.li>
         <motion.li
