@@ -266,7 +266,7 @@ const Services = () => {
           <ul>
             <li>Frontend</li>
             <li>Backend</li>
-            <li>Andriod & iOS</li>
+            <li>Android & iOS</li>
             <li>Databases</li>
             <li>App/Play store</li>
           </ul>

@@ -40,7 +40,7 @@ const About = () => {
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ delay: 0.8 }}
           >
-            <img src="/Images/me.JPG" alt="Bild på medlem" />
+            <img src="/Images/mee.JPG" alt="Picture of the member" />
             <h3>Harsh</h3>
             <p>CEO/Developer</p>
           </motion.div>
