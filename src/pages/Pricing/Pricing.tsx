@@ -149,7 +149,7 @@ const Pricing = () => {
             <span className="price">$5999</span>
             <ul>
               <li>Responsive Design</li>
-              <li>Användarautentisering</li>
+              <li>User Authentication</li>
               <li>Push-notifikationer</li>
               <li>Databaser</li>
               <li>Realtidsdataprocessering</li>
