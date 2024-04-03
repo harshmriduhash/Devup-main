@@ -146,7 +146,7 @@ const Pricing = () => {
           >
             <span className="tag">Premium</span>
             <span className="from">From</span>
-            <span className="price">$7999</span>
+            <span className="price">$5999</span>
             <ul>
               <li>Responsiv Design</li>
               <li>Användarautentisering</li>
