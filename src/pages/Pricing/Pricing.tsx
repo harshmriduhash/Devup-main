@@ -132,7 +132,7 @@ const Pricing = () => {
             <span className="from">From</span>
             <span className="price">$3999</span>
             <ul>
-              <li>Responsiv Design</li>
+              <li>Responsive Design</li>
               <li>Användarautentisering</li>
               <li>Push-notifications</li>
               <li>Databases</li>
