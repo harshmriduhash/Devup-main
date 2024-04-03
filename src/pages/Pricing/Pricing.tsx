@@ -134,8 +134,8 @@ const Pricing = () => {
             <ul>
               <li>Responsiv Design</li>
               <li>Användarautentisering</li>
-              <li>Push-notifikationer</li>
-              <li>Databaser</li>
+              <li>Push-notifications</li>
+              <li>Databases</li>
             </ul>
           </motion.div>
           <motion.div
