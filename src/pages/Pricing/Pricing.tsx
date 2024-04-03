@@ -153,7 +153,7 @@ const Pricing = () => {
               <li>Push-notifications</li>
               <li>Databases</li>
               <li>Real-time data processing</li>
-              <li>Tredjeparts-API:er</li>
+      
             </ul>
           </motion.div>
         </div>
