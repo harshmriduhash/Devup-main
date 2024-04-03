@@ -20,7 +20,7 @@ const About = () => {
             initial={{ opacity: 0, translateY: "100%" }}
             animate={{ opacity: 1, translateY: 0 }}
           >
-            Hey, We are 10k solutions 
+            Hey, We are InfiniGen-AI solutions 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, translateY: "100%" }}
