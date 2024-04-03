@@ -174,7 +174,7 @@ const Services = () => {
             className={serviceIndex === 0 ? "active" : ""}
             onClick={() => setServiceIndex(0)}
           >
-            WebApp Development
+            Web-App Development
           </Button>
         </li>
         <li className="option">
