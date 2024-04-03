@@ -226,7 +226,7 @@ const Services = () => {
             <div className="icon">
               <MdDesignServices />
             </div>
-            <h4>Webapp Development</h4>
+            <h4>Web app Development</h4>
           </div>
           <p>
             We develop powerful Web-App that meet your unique needs.
