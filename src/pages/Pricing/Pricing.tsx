@@ -154,7 +154,6 @@ const Pricing = () => {
               <li>Databases</li>
               <li>Real-time data processing</li>
               <li>Tredjeparts-API:er</li>
-              <li>Webbshop</li>
             </ul>
           </motion.div>
         </div>
