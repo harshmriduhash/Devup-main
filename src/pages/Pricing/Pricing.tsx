@@ -152,7 +152,7 @@ const Pricing = () => {
               <li>User Authentication</li>
               <li>Push-notifications</li>
               <li>Databases</li>
-              <li>Realtidsdataprocessering</li>
+              <li>Real </li>
               <li>Tredjeparts-API:er</li>
               <li>Webbshop</li>
             </ul>
