@@ -129,7 +129,7 @@ const Pricing = () => {
             className="package"
           >
             <span className="tag">Standard</span>
-            <span className="from">Fromn</span>
+            <span className="from">From</span>
             <span className="price">$3999</span>
             <ul>
               <li>Responsiv Design</li>
