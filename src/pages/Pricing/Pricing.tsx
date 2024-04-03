@@ -115,8 +115,8 @@ const Pricing = () => {
             className="package"
           >
             <span className="tag">Basic</span>
-            <span className="from">Från</span>
-            <span className="price">1999 kr</span>
+            <span className="from">From</span>
+            <span className="price">2599$</span>
             <ul>
               <li>Enklare design</li>
               <li>Grundläggande funktioner</li>
