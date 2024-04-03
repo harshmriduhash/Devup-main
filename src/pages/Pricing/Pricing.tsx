@@ -151,7 +151,7 @@ const Pricing = () => {
               <li>Responsive Design</li>
               <li>User Authentication</li>
               <li>Push-notifications</li>
-              <li>Databaser</li>
+              <li>Databases</li>
               <li>Realtidsdataprocessering</li>
               <li>Tredjeparts-API:er</li>
               <li>Webbshop</li>
