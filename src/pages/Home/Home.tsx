@@ -120,7 +120,7 @@ const Help = () => {
           hidden: { opacity: 0, translateX: "-50%" },
         }}
       >
-        We helps SMEs with their digital presence
+        We helps young startups and Entrepreneur with their digital presence
       </motion.h2>
       <div className="bottom">
         <motion.p
@@ -135,7 +135,7 @@ const Help = () => {
           experiences. We can build an entire product for you in 40% reduced
           time. We are hyper-focused on creating best class scalable applications, optimized
           for the best possible user experience and product. We're the
-          all-in-one solution for startups, young Entreprenuer and corporations looking to
+          all-in-one solution for startups, young Entrepreneur and corporations looking to
           rapidly develop, and then launch with our support.{" "}
         </motion.p>
         <RouterLink variant="link" to="/about" arrow>
@@ -197,14 +197,14 @@ const Services = () => {
         </li>
         <li className="buttons">
           <button
-            aria-label="Föregående tjänst"
+            aria-label="Previous service"
             disabled={serviceIndex <= 0}
             onClick={() => setServiceIndex((index) => index - 1)}
           >
             <MdChevronLeft />
           </button>
           <button
-            aria-label="Nästa tjänst"
+            aria-label="Next service"
             disabled={serviceIndex >= 2}
             onClick={() => setServiceIndex((index) => index + 1)}
           >
@@ -296,7 +296,7 @@ const Services = () => {
             <li>Bubble</li>
             <li>Locofy</li>
             <li>Cardd</li>
-            <li>Databas</li>
+            <li>Database</li>
             <li>Webflow</li>
             <li>Flutterflow</li>
           </ul>
@@ -315,7 +315,7 @@ const WhyUs = () => {
   const bottomControls = VisibleControls(bottomRef);
 
   return (
-    <section ref={topRef} className="whyus">
+    <section ref={topRef} className="why us">
       <motion.h2
         animate={topControls}
         transition={{ delay: 0.2 }}
