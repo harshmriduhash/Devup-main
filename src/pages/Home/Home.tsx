@@ -192,7 +192,7 @@ const Services = () => {
             className={serviceIndex === 2 ? "active" : ""}
             onClick={() => setServiceIndex(2)}
           >
-            AI/Chatbots
+            Low/No-Code
           </Button>
         </li>
         <li className="buttons">
