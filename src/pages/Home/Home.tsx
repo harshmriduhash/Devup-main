@@ -192,7 +192,7 @@ const Services = () => {
             className={serviceIndex === 2 ? "active" : ""}
             onClick={() => setServiceIndex(2)}
           >
-            Low/No-Code
+            No-code
           </Button>
         </li>
         <li className="buttons">
@@ -315,7 +315,7 @@ const WhyUs = () => {
   const bottomControls = VisibleControls(bottomRef);
 
   return (
-    <section ref={topRef} className="why us">
+    <section ref={topRef} className="whyus">
       <motion.h2
         animate={topControls}
         transition={{ delay: 0.2 }}
