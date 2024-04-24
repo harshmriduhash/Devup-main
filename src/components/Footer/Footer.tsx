@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
           </Link>
           <p>
-            We are dedicated to delivering customized and high quality web
+            dedicated to delivering customized and high quality web
             solutions that meet your specific business needs. Our team builds
             responsive, search engine optimized and user-friendly websites that
             attract visitors and generate business opportunities.
