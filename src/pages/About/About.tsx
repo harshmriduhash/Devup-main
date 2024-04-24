@@ -20,7 +20,7 @@ const About = () => {
             initial={{ opacity: 0, translateY: "100%" }}
             animate={{ opacity: 1, translateY: 0 }}
           >
-            Hey, We are InfiniGen-AI solutions 
+            We are ShreeGan-AI solutions 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, translateY: "100%" }}
@@ -40,7 +40,6 @@ const About = () => {
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ delay: 0.8 }}
           >
-            <img src="/Images/mee.JPG" alt="Picture of the member" />
             <h3>Harsh</h3>
             <p>CEO/Developer</p>
           </motion.div>
@@ -57,7 +56,7 @@ const About = () => {
               animate={{ opacity: 1, translateY: 0 }}
               transition={{ delay: 0.6 }}
             >
-              We are committed to providing the best possible service and to
+              committed to providing the best possible service and to
               ensure that our partners are satisfied with our work. With my
               expertise in web development and design, I am confident that I can
               help your company reach its goals on a strong and successful
@@ -68,7 +67,7 @@ const About = () => {
         <div className="contact">
           <h2>Contact us</h2>
           <p>
-            We are always open to new projects and collaborations. If you are
+            Always open to new projects and collaborations. If you are
             interested in working with us, please do not hesitate to contact us.
           </p>
           <RouterLink to="/contact" variant="primary">

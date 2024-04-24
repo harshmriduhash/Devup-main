@@ -11,7 +11,7 @@ const Footer = () => {
           <Link style={{ textDecoration: "none" }} to="/">
             <div className="logo">
               <img src="/Images/Logo.webp" alt="" />
-              <h2>InfiniGen</h2>
+              <h2>ShreeGan-AI</h2>
             </div>
           </Link>
           <p>
@@ -30,7 +30,7 @@ const Footer = () => {
             Pricing
           </RouterLink>
           <RouterLink to="/about" variant="link">
-            Abour us
+            About us
           </RouterLink>
           <RouterLink to="/contact" variant="link">
             Contact
