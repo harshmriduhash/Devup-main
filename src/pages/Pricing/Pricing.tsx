@@ -18,7 +18,7 @@ const Pricing = () => {
               initial={{ opacity: 0, translateX: "-100%" }}
               animate={{ opacity: 1, translateX: 0 }}
             >
-              Our price packages on websites
+              Our pricing packages
             </motion.h2>
           </div>
           <div className="right">
@@ -27,7 +27,7 @@ const Pricing = () => {
               animate={{ opacity: 1, translateY: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Pricing here is just roughly estimate, as per the projects.
+              
             </motion.p>
             <motion.p
               initial={{ opacity: 0, translateY: "100%" }}
@@ -98,7 +98,7 @@ const Pricing = () => {
         <div className="lower-text">
           <h2>Are you also looking for More functionality?</h2>
           <p>
-          We also offer development of AI Automations, Low/No code
+          We also offer development of AI Automation, Low/No code
           </p>
         </div>
         <div className="packages">
