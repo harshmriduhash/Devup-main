@@ -49,8 +49,6 @@ const Pricing = () => {
             className="package"
           >
             <span className="tag">MVP</span>
-            <span className="from">From</span>
-            <span className="price">$1999</span>
             <ul>
               <li>Limited pages</li>
               <li>Responsive Design</li>
@@ -67,8 +65,6 @@ const Pricing = () => {
             className="package"
           >
             <span className="tag">WebApp Development</span>
-            <span className="from">From</span>
-            <span className="price">$3500</span>
             <ul>
               <li>Unlimited Pages</li>
               <li>Frontend/Backend</li>
