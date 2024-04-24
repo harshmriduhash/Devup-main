@@ -83,9 +83,7 @@ const Pricing = () => {
             className="package"
           >
             <span className="tag">Mobile App Development</span>
-            <span className="from">From</span>
-            <span className="price">$4999</span>
-            <ul>
+      <ul>
               <li>Unlimited Pages</li>
               <li>Frontend/Backend</li>
               <li>iOS/Android</li>
