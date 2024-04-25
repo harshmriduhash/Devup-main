@@ -237,6 +237,7 @@ const Services = () => {
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React.js/Node.js/Next.js</li>
             <li>Cloud Hosting</li>
             <li>Testing</li>
