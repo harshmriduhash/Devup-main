@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import { Home, About, Contact, Loading, Portfolio, Pricing, Error404 } from "./pages";
 import { Navbar, Footer } from "./components";
 import { ScrollToTopOnRouteChange } from "./hooks";
