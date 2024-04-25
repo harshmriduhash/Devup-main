@@ -239,7 +239,7 @@ const Services = () => {
             <li>JavaScript</li>
             <li>React.js/Node.js/Next.js</li>
             <li>Cloud Hosting</li>
-            <li></li>
+            <li>Testing</li>
           </ul>
         </motion.li>
         <motion.li
