@@ -299,7 +299,7 @@ const Services = () => {
             <li>Cardd</li>
             <li>Database</li>
             <li>Webflow</li>
-            <li>Flutterflow</li>
+            <li>Flutter-flow</li>
           </ul>
         </motion.li>
       </ul>
