@@ -133,10 +133,11 @@ const Help = () => {
         >
           We use the power of AI and no-code to develop unmatched user
           experiences. We can build an entire product for you in 40% reduced
-          time. We are hyper-focused on creating best class scalable applications, optimized
-          for the best possible user experience and product. We're the
-          all-in-one solution for startups, young Entrepreneur and corporations looking to
-          rapidly develop, and then launch with our support.{" "}
+          time. We are hyper-focused on creating best class scalable
+          applications, optimized for the best possible user experience and
+          product. We're the all-in-one solution for startups, young
+          Entrepreneur and corporations looking to rapidly develop, and then
+          launch with our support.{" "}
         </motion.p>
         <RouterLink variant="link" to="/about" arrow>
           Read more about us
@@ -229,10 +230,10 @@ const Services = () => {
             <h4>Web app Development</h4>
           </div>
           <p>
-            We develop powerful Web-App that meet your unique needs.
-            Our team of experienced developers can create everything from simple
-            websites to advanced platforms, focusing on performance, reliability
-            and scalability.
+            We develop powerful Web-App that meet your unique needs. Our team of
+            experienced developers can create everything from simple websites to
+            advanced platforms, focusing on performance, reliability and
+            scalability.
           </p>
           <ul>
             <li>HTML/CSS</li>
@@ -259,10 +260,10 @@ const Services = () => {
             <h4>App Development</h4>
           </div>
           <p>
-            We create custom mobile Apps for both Android and iOS
-            devices. Our team of app developers can create everything from
-            simple apps to more complex platforms with real-time data processing
-            and integration with third-party APIs.
+            We create custom mobile Apps for both Android and iOS devices. Our
+            team of app developers can create everything from simple apps to
+            more complex platforms with real-time data processing and
+            integration with third-party APIs.
           </p>
           <ul>
             <li>Frontend</li>
@@ -288,10 +289,9 @@ const Services = () => {
             <h4>Low/No code Development</h4>
           </div>
           <p>
-            We help companies build custom chat-bots and help them in AI
-            automation. We also cater Low/No code development to fast track
-            companies process of building products & speeding their
-            development process
+            We help startup looking to launch a new web or mobile app. Young startups and entrepreneurs can use these
+            platforms to create a minimum viable product (MVP) without investing
+            significant time and resources in traditional development.
           </p>
           <ul>
             <li>Bubble</li>
