@@ -266,8 +266,8 @@ const Services = () => {
             integration with third-party APIs.
           </p>
           <ul>
-            <li>Frontend</li>
-            <li>Backend</li>
+            <li>React Native</li>
+            <li>Flutter</li>
             <li>Android & iOS</li>
             <li>Databases</li>
             <li>App/Play store</li>
