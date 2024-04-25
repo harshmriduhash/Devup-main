@@ -192,7 +192,7 @@ const Services = () => {
             className={serviceIndex === 2 ? "active" : ""}
             onClick={() => setServiceIndex(2)}
           >
-            No-code
+            Low/No-code
           </Button>
         </li>
         <li className="buttons">
