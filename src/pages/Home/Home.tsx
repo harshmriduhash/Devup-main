@@ -295,7 +295,6 @@ const Services = () => {
           </p>
           <ul>
             <li>Bubble</li>
-            <li>Locofy</li>
             <li>Cardd</li>
             <li>Database</li>
             <li>Webflow</li>
