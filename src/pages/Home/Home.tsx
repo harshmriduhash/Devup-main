@@ -235,7 +235,7 @@ const Services = () => {
             and scalability.
           </p>
           <ul>
-            <li>Concept</li>
+            <li>React.js</li>
             <li>Layout</li>
             <li>Social Logins</li>
             <li>Cloud Hosting</li>
