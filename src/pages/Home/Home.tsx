@@ -514,8 +514,8 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <h3>Some of our projects</h3>
       <ul className="projects">
-        <Project image="/Images/Alvesta-el.webp" i={0} />
-        <Project image="/Images/Volted.webp" i={1} />
+        <Project image="/Images/home.png" i={0} />
+        <Project image="/Images/prompt" i={1} />
       </ul>
       <RouterLink to="/portfolio" variant="link" arrow>
         See more projects
