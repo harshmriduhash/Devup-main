@@ -27,15 +27,15 @@ const Portfolio = () => {
             inDev
           />
           <Project
-            title="Railofy"
+            title="JobHunter"
             type="Web Application"
-            image="/Images/Volted.webp"
+            image="/Images/jobhunter.png"
             i={1}
           />
           <Project
-            title="Goodspace"
+            title="Prompt-share"
             type="Web Application"
-            image="/Images/Volted.webp"
+            image="/Images/prompt.png"
             i={1}
           />
           <Project
