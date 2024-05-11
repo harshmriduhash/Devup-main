@@ -20,7 +20,7 @@ const Portfolio = () => {
         </motion.h2>
         <ul className="projects">
           <Project
-            title="Grootin"
+            title="Solve-AI"
             type="Web Application"
             image="/Images/Alvesta-el.webp"
             i={0}
