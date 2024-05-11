@@ -21,7 +21,7 @@ const Navbar = () => {
     <header ref={ref} className={`navbar ${scrollY < 72 && "notfixed"}`}>
       <Link to="/">
         <div className="logo">
-          <img src="/Images/Logo.webp" alt="" />
+          <img src="/Images/brandlogo.png" alt="" />
           <h2>CodeBoost AI</h2>
         </div>
       </Link>
