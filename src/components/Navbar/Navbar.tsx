@@ -22,7 +22,7 @@ const Navbar = () => {
       <Link to="/">
         <div className="logo">
           <img src="/Images/Logo.webp" alt="" />
-          <h2>ShreeGan-AI</h2>
+          <h2>CodeBoost AI</h2>
         </div>
       </Link>
       <Nav />

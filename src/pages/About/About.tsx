@@ -20,7 +20,7 @@ const About = () => {
             initial={{ opacity: 0, translateY: "100%" }}
             animate={{ opacity: 1, translateY: 0 }}
           >
-            We are ShreeGan-AI solutions 
+            We are CodeBoost AI 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, translateY: "100%" }}
