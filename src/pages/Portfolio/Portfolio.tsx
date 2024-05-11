@@ -39,9 +39,9 @@ const Portfolio = () => {
             i={1}
           />
           <Project
-            title="Hunch"
+            title="SimpliEfforts"
             type="Web Application"
-            image="/Images/Workflow.webp"
+            image="/Images/SaaS.png"
             i={2}
           />
         </ul>
