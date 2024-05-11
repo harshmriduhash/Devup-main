@@ -22,7 +22,7 @@ const Portfolio = () => {
           <Project
             title="Solve-AI"
             type="Web Application"
-            image="/Images/home.png"
+            image="/Images/home-page.png"
             i={0}
             inDev
           />
