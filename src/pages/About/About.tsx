@@ -39,7 +39,7 @@ const About = () => {
             initial={{ opacity: 0, translateX: "-100%" }}
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ delay: 0.8 }}
-          >
+            > <img src="/Images/myself.jpg"/>
             <h3>Harsh</h3>
             <p>CEO/Developer</p>
           </motion.div>
