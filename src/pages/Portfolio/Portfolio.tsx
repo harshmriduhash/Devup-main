@@ -93,5 +93,4 @@ const Project = ({
     </li>
   );
 };
-
 export default Portfolio;
