@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <AnimatedPage>
       <Helmet>
-        <title>AI Solutions</title>
+        <title>CodeBoost</title>
         <meta name="description" content="New age development company" />
       </Helmet>
       <div className="home-screen">
